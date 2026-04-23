@@ -1,0 +1,76 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+#Hero-Section {
+  background-image: url("../img/Fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Mis trabajos */
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+/* --- COLORES FUERA DEL MEDIA QUERY PARA QUE SE VEAN SIEMPRE --- */
+
+/* Fondo de la sección de trabajos (reemplaza el celeste info) */
+.bg-info {
+    background-color: #001f3f !important; /* Azul Oscuro / Navy */
+}
+
+/* Botones y Acentos */
+.btn-info, .btn-outline-info {
+    background-color: #D90429 !important; /* Rojo Intenso */
+    border-color: #D90429 !important;
+    color: white !important;
+}
+
+.btn-outline-info {
+    background-color: transparent !important;
+    color: #D90429 !important;
+    border: 2px solid #D90429 !important;
+}
+
+.btn-outline-info:hover {
+    background-color: #D90429 !important;
+    color: white !important;
+}
+
+/* Iconos de la sección "Acerca de mí" */
+#Acerca-de-mi i {
+    color: #D90429; /* Rojo */
+}
+
+/* Navbar */
+.navbar.bg-dark {
+    background-color: #000814 !important; /* Azul casi negro */
+}
+
+/* Títulos en la sección de trabajos */
+#Mis-trabajos h2 {
+    color: #ffffff;
+}
+
+/* --- RESPONSIVE SOLO PARA COSAS DE TAMAÑO --- */
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand {
+    width: 100px;
+  }
+}
